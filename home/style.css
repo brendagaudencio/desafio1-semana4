@@ -17,13 +17,13 @@ a {
 }
 
 nav {
-    margin: 0px 30px 0px 30px;
+    margin: 38px 30px 0px 30px;
     padding: auto 100px;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 80px;
+    
 }
 
 nav .links {
@@ -56,20 +56,31 @@ nav .links {
 }
 
 .primeira-pagina {
-    height: 900px;
-}
-
-
-.first-texto {
-    margin: 0px 600px 0px 30px;
-    padding: 0 80px;
+    /*margin: 0px 600px 0px 30px;*/
+    /*padding: 0 80px;*/
 
     display: flex;
-    flex-direction: column;
-    align-items: baseline;
+    flex-direction: row;
+    align-items: center;
     column-gap: 0px;
-    max-width: 650px;
+    max-width: 1146px;
+    justify-content: space-between;
+    margin: 0px 100px;
+    padding-bottom: 100px;
 }
+
+#joystick {
+    display: flex;
+    /*border: solid 10px;*/
+    max-width: 450px;
+}
+
+.cabecalho-1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+}
+
 
 .cabecalho-1 h1 {
     font-size: 50px;
@@ -99,9 +110,76 @@ nav .links {
     border-radius: 50px;
 }
 
-#joystick {
-    height: 0px;
-    margin: 0px 600px;
-    display: grid;
-    object-fit: cover;
+
+
+.cabecalho-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 100px;
+    /*border: solid 10px;*/
+}
+
+h3 {
+    color: white;
+    font-family: 'Rubik', sans-serif; 
+    font-size: 25px;
+}
+
+#see-all-1 {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    background: #ffffff;
+    opacity: 0.1;
+    filter: alpha(opacity=10);
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+.second-part {
+    height: 2000px;
+}
+
+.trending-games {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+    margin: 70px 66px;
+    /*border: solid 10px;*/
+}
+
+.all-followers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    gap: 50px;
+    padding-bottom: 100px;
+} 
+
+.followers {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.followers img {
+    height: 20px;
+    width: 20px;
+}
+
+.followers p {
+    font-size: 17px;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: medium;
+}
+
+.texto-meio-tela p {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: medium;
+    font-family: 'Poppins', sans-serif;
 }
