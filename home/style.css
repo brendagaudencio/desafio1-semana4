@@ -6,9 +6,9 @@
 }
 
 main {
-    width: 1440px;
+    max-width: 1440px;
     height: 5430px;
-    max-width: 100%;
+    margin-inline: auto;
 }
 
 body {
@@ -63,20 +63,23 @@ nav .links {
     /*margin: 0px 600px 0px 30px;*/
     /*padding: 0 80px;*/
 
+    
     display: flex;
     flex-direction: row;
     align-items: center;
     column-gap: 0px;
     max-width: 1146px;
     justify-content: space-between;
-    margin: 0px 130px;
+    margin-inline: auto;
     padding-bottom: 100px;
+    border: solid 1px red;
 }
 
 #joystick {
-    display: flex;
-    /*border: solid 10px;*/
+    position: absolute;
+    right: 10.5%;
     max-width: 450px;
+    border: solid 1px red;
 }
 
 .cabecalho-1 {
@@ -120,7 +123,10 @@ nav .links {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 130px;
+    /*margin: 132px 130px 0px 130px;*/
+    margin-top: 132px;
+    max-width: 1146px;
+    margin-inline: auto;
     /*border: solid 10px;*/
 }
 
@@ -145,19 +151,21 @@ h3 {
 
 .trending-games {
     display: flex;
-    justify-content: space-evenly;
-    max-width: 100%;
-    margin: 70px 70px;
+    justify-content: space-between;
+    max-width: 1146px;
+    margin-inline: auto;
+    margin-top: 57px;
     /*border: solid 10px;*/
 }
 
 .all-followers {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    max-width: 100%;
-    gap: 50px;
-    padding-bottom: 100px;
+    justify-content: space-between;
+    max-width: 1146px;
+    
+    margin-inline: auto;
+    margin-top: 25px;
 } 
 
 .followers {
@@ -167,12 +175,12 @@ h3 {
 }
 
 .followers img {
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
 }
 
 .followers p {
-    font-size: 17px;
+    font-size: 22px;
     color: white;
     font-family: 'Rubik', sans-serif;
     font-weight: medium;
@@ -180,33 +188,34 @@ h3 {
 
 .texto-meio-tela p {
     color: white;
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
+    margin-inline: auto;
     font-weight: medium;
-    font-family: 'Poppins', sans-serif;
-    padding-bottom: 50px;
+    max-width: 826px;
 }
 
-.texto-filme h5{
-    font-size: 26px;
+h5{
+    font-size: 30px;
     color: white;
-    margin-left: 100px;
-    margin-bottom: 0px;
+    margin-inline: auto;
+    max-width: 1146px;
+    margin-bottom: 0;
 }
 
 .texto-filme p {
     color: white;
     font-size: 15px;
-    margin-left: 100px;
     line-height: 30px;
-    padding-bottom: 50px;
+    max-width: 1146px;
+    margin-inline: auto;
 }
 
 #filme {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 86%;
+    max-width: 1146px;
 }
 
 /*#bolinhas {
@@ -218,8 +227,8 @@ h3 {
 .third-part {
     max-width: 1440px;
     height: 881px;
-    background-position: center;
-    background-size: cover;
+    margin-inline: auto;
+    background-size: fill;
     background-image: url(img-home/background-third-part.png);
 }
 
@@ -244,3 +253,6 @@ h3 {
     background-color: #bbb;
     border-radius: 50%;
 }
+
+
+
