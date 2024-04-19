@@ -80,6 +80,7 @@ nav .links {
     right: 10.5%;
     max-width: 450px;
     border: solid 1px red;
+    z-index: -1
 }
 
 .cabecalho-1 {
@@ -161,7 +162,7 @@ h3 {
 .all-followers {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: stretch;
     max-width: 1146px;
     
     margin-inline: auto;
@@ -239,20 +240,78 @@ h5{
     text-align: center;
 
     padding-top: 100px;
+    margin: 0;
 }
 
 #segundo-p-thirpart {
     color: white;
     text-align: center;
     font-size: 14px;
+    margin: 30px 0px 0px 0px;
 }
 
-.dot {
-    height: 25px;
-    width: 25px;
-    background-color: #bbb;
-    border-radius: 50%;
+
+
+.icones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 251px;
+
+
+    margin-top: 100px;
+    max-width: 1045px;
+    margin-inline: auto;
+    
 }
+
+/*
+.icones-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 150px;
+
+
+    margin-top: 167px;
+    max-width: 1045px;
+    margin-inline: auto;
+}
+*/
+
+.fourth-part {
+    margin-inline: auto;
+    max-width: 1170px;
+}
+
+h6 {
+    color: #FFFFFF;
+    font-size: 30px;
+    text-align: center;
+
+    margin: 141px 0 0 0;
+}
+
+.text-projects {
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+
+    margin: 17px 0 72px 0;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 27px;
+
+    max-width: 1170px;
+    margin-inline: auto;
+}
+
 
 
 
