@@ -41,7 +41,7 @@ nav .links {
 }
 
 .logo {
-    font-size: 25px;
+    font-size: 29px;
     font-weight: bold;
 }
 
@@ -384,5 +384,28 @@ h6 {
     border: none;
 }
 
+footer {
+    color:#FFFFFF;
 
+    max-width: 1440px;
+    height: 376px;
+    background-color: #1C140F;
+    margin-inline: auto;
+}
+
+.container-footer {
+    max-width: 1219px;
+
+    display: flex;
+    margin-inline: auto;
+    justify-content: space-between;
+}
+
+.rodape {
+    margin-inline: auto;
+    text-align: center;
+
+    max-width: 1440px;
+    margin: 0px;
+}
 
