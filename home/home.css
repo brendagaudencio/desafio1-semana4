@@ -18,7 +18,7 @@ body {
     /*margin: 0px 600px 0px 30px;*/
     /*padding: 0 80px;*/
 
-    
+    position: relative;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -32,7 +32,8 @@ body {
 
 #joystick {
     position: absolute;
-    right: 5%;
+    right: 2.5%;
+    top: -230px;
     max-width: 450px;
     border: solid 1px red;
     z-index: -1
@@ -213,34 +214,41 @@ h5{
 
 
 
-.icones {
+.icones-tecnologias {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
     align-items: center;
-    gap: 251px;
-
+    justify-content: space-evenly;
+    gap: 100px;
 
     margin-top: 100px;
     max-width: 1045px;
     margin-inline: auto;
-    
 }
 
-/*
-.icones-2 {
+.icones-tecnologias p {
+    font-size: 16px;
+}
+
+#seta {
+    width: 21px;
+    height: 21px;
+}
+
+#icone-tec-unidade {
+    width: 65px;
+    height: 65px;
+}
+
+.flex-icone-tec {
+    max-width: 220px;
+
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-direction: column;
     align-items: center;
-    gap: 150px;
 
-
-    margin-top: 167px;
-    max-width: 1045px;
-    margin-inline: auto;
 }
-*/
+
 
 .fourth-part {
     margin-inline: auto;
@@ -274,17 +282,17 @@ h6 {
     margin-inline: auto;
 }
 
-#see-all-2 {
+.see-all-2 button {
     color:white;
     font-family: 'Rubik', sans-serif;
     background-color: rgba(255, 255, 255, 0.11);
     padding: 15px 25px;
     border-radius: 5px;
     border: none;
+    max-width: 1170px;
 
-    
     margin-inline: auto;
-    margin: 72px 0 0 0;
+    margin-top: 72px;
 }
 
 .fifth-part {
@@ -292,9 +300,6 @@ h6 {
     max-width: 1170px;
 }
 
-.fifth-part p {
-    color: #FFFFFF;
-}
 
 #p1-fifth-part {
     font-size: 30px;

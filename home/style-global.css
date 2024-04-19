@@ -5,6 +5,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+p {
+    color: #FFFFFF;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -17,11 +21,10 @@ header {
 }
 
 nav {
-
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+    margin-top: 37px;
 }
 
 nav .links {
@@ -145,6 +148,5 @@ footer {
     margin: 29px auto;
 }
 
-.texto-icones-tecnologias {
-    color: #FFFFFF;
-}
+
+
