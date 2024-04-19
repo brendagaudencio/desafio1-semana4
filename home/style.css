@@ -7,7 +7,7 @@
 
 main {
     max-width: 1440px;
-    height: 5000px;
+    
     margin-inline: auto;
 }
 
@@ -194,6 +194,9 @@ h3 {
     margin-inline: auto;
     font-weight: medium;
     max-width: 826px;
+
+    margin-top: 129px;
+    margin-bottom: 67px;
 }
 
 h5{
@@ -316,6 +319,19 @@ h6 {
     margin-inline: auto;
 }
 
+#see-all-2 {
+    color:white;
+    font-family: 'Rubik', sans-serif;
+    background-color: rgba(255, 255, 255, 0.11);
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: none;
+
+    
+    margin-inline: auto;
+    margin: 72px 0 0 0;
+}
+
 .fifth-part {
     margin-inline: auto;
     max-width: 1170px;
@@ -344,6 +360,7 @@ h6 {
 
     width: 1170px;
     height: 189px;
+    margin-bottom: 163px;
 }
 
 .info-box-fifthpart {
@@ -395,10 +412,65 @@ footer {
 
 .container-footer {
     max-width: 1219px;
+    height: 161px;
+    padding-top: 73px;
 
     display: flex;
     margin-inline: auto;
     justify-content: space-between;
+    
+}
+
+.column-logo {
+    width: 372px;
+}
+
+#logo-footer {
+    margin: 0;
+}
+
+#info-logo-footer {
+    font-size: 16px;
+    line-height: 30px;
+
+    margin: 15px 0px 25px 0px;
+}
+
+.column-aboutus {
+    width: 158px;
+}
+
+.column-aboutus p {
+    margin: 0;
+    line-height: 30px;
+}
+
+#about-us-footer {
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+
+.column-contactus {
+    width: 282px;
+}
+
+.column-contactus p {
+    margin: 0;
+    line-height: 30px
+}
+
+#text-contact-footer {
+    padding: 20px 0px 0px 0px;
+}
+
+.icones-footer {
+    width: 184px;
+    margin-top: 129px;
+}
+
+.icones-footer img {
+    width: 40px;
+    height: 40px;
 }
 
 .rodape {
@@ -406,7 +478,19 @@ footer {
     text-align: center;
 
     max-width: 1440px;
-    margin: 0px;
+    height: 83px;
+    margin: 53px auto;
+    border: solid 2px #FFFFFF;
+
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+#rodape-text {
+    font-size: 13px;
+
+    margin: 29px auto;
 }
 
 .texto-icones-tecnologias {
