@@ -7,7 +7,7 @@
 
 main {
     max-width: 1440px;
-    height: 5430px;
+    height: 5000px;
     margin-inline: auto;
 }
 
@@ -147,7 +147,7 @@ h3 {
 }
 
 .second-part {
-    height: 1681px;
+    height: 1597px;
 }
 
 .trending-games {
@@ -210,6 +210,7 @@ h5{
     line-height: 30px;
     max-width: 1146px;
     margin-inline: auto;
+    line-height: 30px;
 }
 
 #filme {
@@ -241,6 +242,7 @@ h5{
 
     padding-top: 100px;
     margin: 0;
+    line-height: 30px;
 }
 
 #segundo-p-thirpart {
@@ -248,6 +250,7 @@ h5{
     text-align: center;
     font-size: 14px;
     margin: 30px 0px 0px 0px;
+    line-height: 30px;
 }
 
 
@@ -300,6 +303,7 @@ h6 {
     text-align: center;
 
     margin: 17px 0 72px 0;
+    line-height: 30px;
 }
 
 .grid {
@@ -312,6 +316,73 @@ h6 {
     margin-inline: auto;
 }
 
+.fifth-part {
+    margin-inline: auto;
+    max-width: 1170px;
+}
+
+.fifth-part p {
+    color: #FFFFFF;
+}
+
+#p1-fifth-part {
+    font-size: 30px;
+    font-weight: bold;
+    
+    margin: 105px 0 32px 0;
+}
+
+#p2-fifth-part {
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 74px;
+}
+
+.box-fifthpart {
+    background-color: #1C140F;
+    border-radius: 15px;
+
+    width: 1170px;
+    height: 189px;
+}
+
+.info-box-fifthpart {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    max-width: 1064px;
+    
+    margin-inline: auto;
+}
+
+#stay-in-the-loop {
+    font-size: 30px;
+    margin: 40px 0 12px 0;
+}
+
+#info-about-email {
+    font-size: 17px;
+
+    margin: 0;
+}
+
+#emailAddress {
+    width: 386px;
+    height: 48px;
+
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.validate-email {
+    font-size: 13px;
+    background-color: #DC7000;
+    color: #FFFFFF;
+
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+}
 
 
 
