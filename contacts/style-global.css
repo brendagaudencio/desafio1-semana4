@@ -5,6 +5,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+p {
+    color: #FFFFFF;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -51,6 +55,85 @@ nav .links {
 
     display: flex;
     align-items: center;
+}
+
+.fifth-part {
+    margin-inline: auto;
+    max-width: 1170px;
+}
+
+
+#p1-fifth-part {
+    font-size: 30px;
+    font-weight: bold;
+    
+    margin: 105px 0 32px 0;
+}
+
+#p2-fifth-part {
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 74px;
+}
+
+.box-fifthpart {
+    background-color: #1C140F;
+    border-radius: 15px;
+
+    width: 1170px;
+    height: 189px;
+    margin-bottom: 163px;
+}
+
+.info-box-fifthpart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1064px;
+    
+    padding-top: 40px;
+    margin-inline: auto;
+}
+
+#stay-in-the-loop {
+    font-size: 30px;
+    margin: 0;
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+
+#info-about-email {
+    font-size: 17px;
+    margin: 0;
+    line-height: 30px;
+}
+
+.email-input {
+    width: 386px;
+    max-width: 100%;
+    position: relative;
+}
+
+.email-input input {
+    padding: 17px 100px 17px 100px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    border: none;
+}
+
+.email-input button {
+    font-size: 13px;
+    background-color: #DC7000;
+    color: #FFFFFF;
+
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+
+    position: absolute;
+    height: 70%;
+    right: 9%;
+    top: 15%;
 }
 
 footer {
