@@ -27,7 +27,6 @@ body {
     justify-content: space-between;
     margin-inline: auto;
     margin-top: 122px;
-    border: solid 1px red;
 }
 
 #joystick {
@@ -35,7 +34,6 @@ body {
     right: 2.5%;
     top: -230px;
     max-width: 450px;
-    border: solid 1px red;
     z-index: -1
 }
 
