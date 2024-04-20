@@ -23,6 +23,7 @@
     <main>
       <div class="cabecalho-mapa">
         <div class="texto-cabecalho-mapa">
+          <p id="menu-home-contactus">Home   > Contact us</p>
           <h1>Lorem Ipsum is simply dummy text of the printing and.</h1>
           <p id="p-cabecalho-mapa">
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -67,15 +68,24 @@
 
         <div class="box-formulario">
           <form action="/action_page.php">
-            <label for="fname">First Name</label><br />
-            <input type="text" id="first-name" name="fname" /><br />
-            <label for="lname">Last Name</label><br />
-            <input type="text" id="last-name" name="lname" /><br />
+            <div class="first-last-name">
+              <div id="last-name-div">
+                <label for="fname">First Name</label> <br />
+                <input type="text" id="first-name" name="fname" />
+              </div>
+              <div id="first-name-div">
+                <label for="lname">Last Name</label><br />
+                <input type="text" id="last-name" name="lname" /><br />
+              </div>
+            </div>
+
             <label for="email">Email Adress</label><br />
             <input type="text" id="email-adress" name="adressmail" /><br />
             <label for="message">Message</label><br />
             <input type="text" id="message" name="message" /><br /><br />
-            <button>Get in touch</button>
+            <div class="btn-get-in-touch">
+              <button>Get in touch</button>
+            </div>
           </form>
         </div>
       </div>
