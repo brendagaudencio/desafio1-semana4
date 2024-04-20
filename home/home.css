@@ -9,7 +9,7 @@ main {
 }
 
 body {
-    background-color: #39289F;
+    background-image: linear-gradient(#39289F, #422F9C);
 }
 
 
@@ -100,9 +100,6 @@ h3 {
     border: none;
 }
 
-.second-part {
-    height: 1597px;
-}
 
 .trending-games {
     display: flex;
@@ -116,12 +113,13 @@ h3 {
 .all-followers {
     display: flex;
     align-items: center;
-    justify-content: stretch;
+    justify-content: space-between;
     max-width: 1146px;
     
     margin-inline: auto;
     margin-top: 25px;
 } 
+
 
 .followers {
     display: flex;
@@ -139,6 +137,13 @@ h3 {
     color: white;
     font-family: 'Rubik', sans-serif;
     font-weight: medium;
+}
+
+.trending-game-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
 }
 
 .texto-meio-tela p {
@@ -185,6 +190,7 @@ h5{
 
 .third-part {
     max-width: 1440px;
+    margin-top: 157px;
     height: 881px;
     margin-inline: auto;
     background-size: fill;
@@ -209,8 +215,6 @@ h5{
     margin: 30px 0px 0px 0px;
     line-height: 30px;
 }
-
-
 
 .icones-tecnologias {
     display: flex;
@@ -323,39 +327,52 @@ h6 {
 
 .info-box-fifthpart {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-between;
     max-width: 1064px;
     
+    padding-top: 40px;
     margin-inline: auto;
 }
 
 #stay-in-the-loop {
     font-size: 30px;
-    margin: 40px 0 12px 0;
+    margin: 0;
+    line-height: 30px;
+    padding-bottom: 10px;
 }
 
 #info-about-email {
     font-size: 17px;
-
     margin: 0;
+    line-height: 30px;
 }
 
-#emailAddress {
+.email-input {
     width: 386px;
-    height: 48px;
-
-    background-color: #FFFFFF;
-    border-radius: 10px;
+    max-width: 100%;
+    position: relative;
 }
 
-.validate-email {
+.email-input input {
+    padding: 17px 100px 17px 100px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    border: none;
+}
+
+.email-input button {
     font-size: 13px;
     background-color: #DC7000;
     color: #FFFFFF;
 
     padding: 10px 30px;
-    border-radius: 10px;
     border: none;
+    border-radius: 10px;
+
+    position: absolute;
+    height: 70%;
+    right: 9%;
+    top: 15%;
 }
 
