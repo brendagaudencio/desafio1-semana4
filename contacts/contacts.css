@@ -122,30 +122,29 @@ h1 {
 #say-hello {
     color: #FFFFFF;
     font-size: 30px;
+    text-align: center;
     margin-inline: auto;
-    margin: auto;
+    margin: 0;
+    padding-top: 120px;
     max-width: 671px;
-    padding-top: 60px;
 }
 
-.formulario p {
+#info-p-form {
     color: #FFFFFF;
     font-size: 13px;
-    text-align: center;
-
-    padding-top: 10px;
     max-width: 671px;
+    text-align: center;
     margin-inline: auto;
-    margin: auto;
-}
+    margin-bottom: 35px;
+}    
 
-.formulario input {
+.form-full input {
     background-color: rgba(255, 255, 255, 0.07);
     border: solid 1px rgba(255, 255, 255, 0.40);
     border-radius: 15px;
 }
 
-.box-formulario {
+.form-full {
     color: #4F4F4F;
     font-size: 14px;
     max-width: 671px;
@@ -154,45 +153,39 @@ h1 {
 }
 
 #message {
-    padding: 0px;
     width: 670px;
     height: 232px;
+
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.07);
+    border: solid 1px rgba(255, 255, 255, 0.40);
 }
 
-#email-adress {
+#email {
     width: 671px;
     height: 56px;
     padding: 0px;
 }
 
-.first-last-name {
-    max-width: 671px;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#first-name {
+#fname {
     width: 322px;
     height: 56px;
     padding: 0px;
 }
 
-#last-name {
+#lname {
     width: 322px;
     height: 56px;
     padding: 0px;
 }
 
-.btn-get-in-touch button {
+.form-full button {
     font-size: 16px;
     color: #FFFFFF;
     background-color: #DC7000;
-    padding: 15px 40px 15px 40px;
     border-radius: 15px;
-    margin-left: 490px;
-
+    padding: 15px 40px 15px 40px;
+    
     margin-top: 30px;
 }
 
