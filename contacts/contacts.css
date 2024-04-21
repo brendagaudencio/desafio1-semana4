@@ -163,7 +163,7 @@ h1 {
     margin-top: 79px;
 }
 
-#message {
+#message-form {
     width: 670px;
     height: 232px;
 
@@ -178,13 +178,13 @@ h1 {
     padding: 0px;
 }
 
-#fname {
+#first-name {
     width: 322px;
     height: 56px;
     padding: 0px;
 }
 
-#lname {
+#last-name {
     width: 322px;
     height: 56px;
     padding: 0px;
@@ -196,8 +196,24 @@ h1 {
     background-color: #DC7000;
     border-radius: 15px;
     padding: 15px 40px 15px 40px;
-    
     margin-top: 30px;
+}
+
+#form-message-sucess {
+    color: #659056;
+    font-size: 16px;
+}
+
+#form-message-error {
+    color: #B4003C;
+    font-size: 16px;
+}
+
+.btn-form {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    max-width: 671px;
 }
 
 

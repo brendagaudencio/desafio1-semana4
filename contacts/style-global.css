@@ -134,13 +134,13 @@ nav .links {
 }
 
 #message-error {
-    color: red;
-    font-size: 13px;
+    color: #B4003C;
+    font-size: 15px;
 }
 
 #message-sucess {
-    color: green;
-    font-size: 13px;
+    color: #659056;
+    font-size: 15px;
 }
 
 footer {
