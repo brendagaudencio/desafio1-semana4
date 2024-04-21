@@ -79,8 +79,8 @@
                 <input type="text" id="lname" name="lname" /><br />
               </div>
             </div>
-            <label for="email">Email Adress</label><br />
-            <input type="text" id="email" name="adressmail" /><br />
+            <label for="email-form">Email Adress</label><br />
+            <input type="email" id="email-form" name="adressmail" /><br />
             <label for="message">Message</label><br />
             <textarea
               name="message"
@@ -112,10 +112,19 @@
                 We promise not to spam you!
               </p>
             </div>
-            <div class="email-input">
-              <input id="emailAddress" type="email" />
-              <button class="validate-email">Continue</button>
+            <div class="newsletter" id="newsletter">
+              <form id="email-newsletter">
+                <div class="email-control">
+                  <input type="email" id="email"/>
+                    <button type="submit" id="btn-submit-email">Continue</button>
+                    <br>
+                    
+                </div>
+                <span id="message-error"></span>
+                <span id="message-sucess"></span>
+              </form>
             </div>
+              
           </div>
         </div>
       </div>
