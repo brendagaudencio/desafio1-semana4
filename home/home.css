@@ -284,7 +284,7 @@ h6 {
     margin-inline: auto;
 }
 
-.see-all-2 button {
+#see-all-2  {
     color:white;
     font-family: 'Rubik', sans-serif;
     background-color: rgba(255, 255, 255, 0.11);
@@ -292,7 +292,7 @@ h6 {
     border-radius: 5px;
     border: none;
     max-width: 1170px;
-
+    text-align: center;
     margin-inline: auto;
     margin-top: 72px;
 }
