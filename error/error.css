@@ -10,22 +10,35 @@ main {
 }
 
 body {
-    background-image: linear-gradient(#2E2689, #332E62);
-    position: relative;
-}
-
-.erro-404 img {
-    width: 800px;
-    height: 800px;
-    opacity: 0.5;
-    
+    background-image: linear-gradient(#332E62, #39289F);
 }
 
 .erro-404 {
     margin-inline: auto;
     text-align: center;
     max-width: 1046px;
+    margin-top: 300px;
+    margin-bottom: 300px;
 }
+
+h1 {
+    color: #08042F;
+    font-size: 300px;
+    margin: 0;
+}
+
+#sorry-message {
+    font-size: 30px;
+    margin: 0;
+}
+
+#back-home {
+    font-size: 25px;
+    margin-top: 50px;
+    text-decoration: underline;
+}
+
+
 
 
 
