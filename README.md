@@ -33,7 +33,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 ## 💻 Tecnologias:
 - Linguagens: HTML, CSS e JavaScript <br/>
 - Protótipo:  **[Figma](https://www.figma.com/)**  →  **[Protótipo (Desafio1)](https://www.figma.com/file/Vzl8xfN2v8PF8fX5trpKKX/Desafio-1?type=design&node-id=0%3A1&mode=design&t=jybs2ogTlD0boU3B-1)**
-- IDE: **[Visual Studio Code](https://code.visualstudio.com/)**  → Extensions:  **[Node.js](https://nodejs.org/en)**
+- IDE: **[Visual Studio Code](https://code.visualstudio.com/)** 
 - Fontes:  **[Poppins](https://fonts.google.com/specimen/Poppins)**,  **[Rubik](https://fonts.google.com/specimen/Rubik)**
 
 ## Autora: 
