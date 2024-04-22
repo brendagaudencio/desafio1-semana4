@@ -1,9 +1,9 @@
-const formNewsletter = document.getElementById('email-newsletter')
-const email = document.getElementById('email')
+const formNewsletter = document.getElementById('email-newsletter-home')
+const emailHome = document.getElementById('email-home')
 const messageElement = document.getElementById('message')
 
 function checkInputEmail() {
-    const emailValue = email.value.trim()
+    const emailValue = emailHome.value.trim()
 
     if(emailValue === '') {
         document.getElementById('message-error').innerHTML = 'Email can not be blank.'
@@ -27,6 +27,8 @@ formNewsletter.addEventListener('submit', (e) => {
 
     checkInputEmail()
 
-    email.value = ''
+
+    let emailKeyHome = localStorage.setItem('emailKeyHome', emailHome.value)
+    emailHome.value = ''
 });
 

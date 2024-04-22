@@ -1,9 +1,9 @@
-const formNewsletter = document.getElementById('email-newsletter')
-const email = document.getElementById('email')
+const formNewsletter = document.getElementById('email-newsletter-contacts')
+const emailContacts = document.getElementById('email-contacts')
 const messageElement = document.getElementById('message')
 
 function checkInputEmail() {
-    const emailValue = email.value.trim()
+    const emailValue = emailContacts.value.trim()
 
     if(emailValue === '') {
         document.getElementById('message-error').innerHTML = 'Email can not be blank.'
@@ -27,7 +27,8 @@ formNewsletter.addEventListener('submit', (e) => {
 
     checkInputEmail()
 
-    email.value = ''
+    let emailKeyContacts = localStorage.setItem('emailKeyContacts', emailContacts.value)
+    emailContacts.value = ''
 });
 
 
@@ -38,21 +39,7 @@ const lastName = document.getElementById('last-name')
 const emailForm = document.getElementById('email-form')
 const messageForm = document.getElementById('message-form')
 
-formGeral.addEventListener('submit', (e) => {
-    e.preventDefault()
 
-    checkFormInput()
-    const formData = new FormData(formGeral)
-    const objForm = Object.fromEntries(formData)
-
-    const formInJson = JSON.stringify(objForm)
-    localStorage.setItem('formGeral', formInJson)
-
-    firstNome.value = ''
-    lastName.value = ''
-    emailForm.value = ''
-    messageForm.value = ''
-})
 
 function checkFormInput() {
     const firstNomeValue = firstNome.value.trim()
@@ -72,3 +59,19 @@ function checkFormInput() {
         document.getElementById('form-message-error').innerHTML = ''
     }
 }
+
+formGeral.addEventListener('submit', (e) => {
+    e.preventDefault()
+
+    checkFormInput()
+    const formData = new FormData(formGeral)
+    const objForm = Object.fromEntries(formData)
+
+    const formInJson = JSON.stringify(objForm)
+    localStorage.setItem('formGeral', formInJson)
+
+    firstNome.value = ''
+    lastName.value = ''
+    emailForm.value = ''
+    messageForm.value = ''
+})
