@@ -26,8 +26,7 @@ Projeto da semana 4 do programa de bolsas da empresa Compass UOL com a metodolog
 
 ## ◼ Como executar o projeto:
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+[Git](https://git-scm.com), [VSCode](https://code.visualstudio.com/).
 1. Clone esse repositório localmente.
 2. Logo em seguida execute o arquivo 'index.html' em '/frontend-semana4/home/index.html onde está localizada a página inicial desta aplicação.
 
