@@ -4,195 +4,289 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="home.css" />
   </head>
   <body>
+    <header>
+      <nav>
+        <a href="index.html" class="logo">LOGO</a>
+        <div class="links">
+          <a href="index.html">Home</a>
+          <a href="/error/error.html">About Us</a>
+          <a href="/error/error.html">Portfolio</a>
+          <a href="/error/error.html">News</a>
+          <a href="/contacts/contacts.html"><button id="contact-us">Contact Us</button></a>
+        </div>
+      </nav>
+    </header>
+
     <main>
-      <header>
-        <nav>
-          <a href="#" class="logo">LOGO</a>
-          <div class="links">
-            <a href="#">Home</a>
-            <a href="#">About Us</a>
-            <a href="#">Portfolio</a>
-            <a href="#">News</a>
-            <button id="contact-us">Contact Us</button>
-          </div>
-        </nav>
-      </header>
-
-      <div class="primeira-pagina">
-        <div class="first-texto">
-          <div class="cabecalho-1">
-            <h2>Proved By prodesigner</h2>
-            <h1>Work that we produce for our clients</h1>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard.
-            </p>
-          </div>
-
+      <div class="primeira-pagina" id="secao-apresentação">
+        <div class="cabecalho-1">
+          <h2>Proved By prodesigner</h2>
+          <h1>Work that we produce for our clients</h1>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard.
+          </p>
           <div>
             <button id="more-deatils">Get more details</button>
           </div>
         </div>
-
         <div id="joystick">
-          <img src="img-home/joy_stick-1.png" alt="joystick" />
+          <img src="img-home/joystick-eidtado.png" alt="joystick" />
+        </div>
+        <div>
+          <img id="unity" src="img-home/unity-1.png" alt="">
+        </div>
+        <div>
+          <img id="cryengine" src="img-home/cry-1.png" alt="">
+        </div>
+        <div>
+          <img id="unreal" src="img-home/unreal-1.png" alt="">
         </div>
       </div>
 
-      <div class="second-part">
-        <div id="cabecalho-2">
+      <div class="second-part" id="secao-trending-games">
+        <div class="cabecalho-2">
           <h3>Currently Trending Games</h3>
           <button id="see-all-1">SEE ALL</button>
         </div>
 
+        
+
         <div class="trending-games">
-          <img src="img-home/rectangle-1.png" alt="jogo1" />
-          <img src="img-home/rectangle-2.png" alt="jogo2" />
-          <img src="img-home/rectangle-3.png" alt="jogo3" />
-          <img src="img-home/rectangle-4.png" alt="jogo4" />
+          <div class="trending-game-column">
+            <img src="img-home/rectangle-1.png" alt="jogo1" />
+            <div class="followers">
+              <img src="img-home/fire 1.png" alt="" />
+              <p>40 Followers</p>
+            </div>
+          </div>
+  
+          <div class="trending-game-column">
+            <img src="img-home/rectangle-2.png" alt="jogo2" />
+            <div class="followers">
+              <img src="img-home/fire 1.png" alt="" />
+              <p>40 Followers</p>
+            </div>
+          </div>
+  
+          <div class="trending-game-column">
+            <img src="img-home/rectangle-3.png" alt="jogo3" />
+            <div class="followers">
+              <img src="img-home/fire 1.png" alt="" />
+              <p>40 Followers</p>
+            </div>
+          </div>
+  
+          <div class="trending-game-column">
+            <img src="img-home/rectangle-4.png" alt="jogo4" />
+            <div class="followers">
+              <img src="img-home/fire 1.png" alt="" />
+              <p>40 Followers</p>
+            </div>
+          </div>
         </div>
 
-        <div class="followers">
-          <img src="img-home/fire 1.png" alt="" />
-          <p>40 Followers</p>
+        
         </div>
 
         <div class="texto-meio-tela">
-          <h4>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
-          </h4>
+          <p>
+            Lorem Ipsum is simply dummy text of the <br />
+            printing and typesetting industry.
+          </p>
         </div>
 
-        <div>
+        <div class="texto-filme">
           <h5>Lorem Ipsum</h5>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s,
+            <br />
+            industry. Lorem Ipsum has been the industry's standard dummy text<br />
+            ever since the 1500s.
           </p>
 
-          <img src="img-home/rectangle-big.png" id="filme" alt="filme" />
+          <div class="imagem-filme">
+            <img src="img-home/rectangle-big.png" id="filme" alt="filme" />
+            <div>
+              <img id="bolinhas" src="img-home/bolinhas.png" alt="">
+            </div>
+          </div>
+          
+            
+          
+          
+          <!--<img src="img-home/bolinhas.png" id="bolinhas" alt="bolinhas" /> -->
+          
         </div>
       </div>
 
-      <div class="third-part">
-        <img src="img-home/background-third-part.png" alt="fundo1" />
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry.
+      <div class="third-part" id="secao-tecnologias">
+        <!-- <img
+          class="foto-montanha"
+          src="img-home/background-third-part.png"
+          alt="fundo1"
+        /> -->
+        <p id="primeiro-p-thirpart">
+          Lorem Ipsum is simply dummy text of the printing <br />
+          and typesetting industry.
         </p>
-        <p>
+        <p id="segundo-p-thirpart">
           Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s,
+          industry. Lorem Ipsum has been the <br />
+          industry's standard dummy text ever since the 1500s.
         </p>
 
-        <div class="icones">
-          <img src="img-home/smartphone.png" alt="cel1" />
-          <img src="img-home/pc.png" alt="pc1" />
-          <img src="img-home/ps4.png" alt="ps41" />
-          <img src="img-home/vr-glasses.png" alt="vr1" />
-          <img src="img-home/desktop.png" alt="desktop1" />
-          <img src="img-home/3d-cube.png" alt="cube1" />
+        <div class="icones-tecnologias">
+          <div class="flex-icone-tec">
+            <img id="icone-tec-unidade" src="img-home/smartphone-1.png" alt="cel1" />
+            <p>Mobile Game Development</p>
+            <img id="seta" src="img-home/arrow.png" alt="" />
+          </div> 
+
+          <div class="flex-icone-tec">
+            <img id="icone-tec-unidade" src="img-home/desktop-1.png" alt="pc1" />
+            <p>PC Game Development</p>
+            <img id="seta" src="img-home/arrow.png" alt="" />
+          </div>
+
+          <div class="flex-icone-tec">
+            <img id="icone-tec-unidade" src="img-home/ps4 -1.png" alt="ps41" />
+            <p>PS4 Game Development</p>
+            <img id="seta" src="img-home/arrow.png" alt="" />
+          </div>
+
+          <div class="flex-icone-tec">
+            <img id="icone-tec-unidade" src="img-home/vrglass-1.png" alt="vr1" />
+            <p>AR/VR Solutions</p>
+            <img id="seta" src="img-home/arrow.png" alt="" />
+          </div>
+            
+          <div class="flex-icone-tec">
+            <img id="icone-tec-unidade" src="img-home/cubepc-1.png" alt="desktop1" />
+            <p>AR/ VR design</p>
+            <img id="seta" src="img-home/arrow.png" alt="" />
+          </div>
+            
+          <div class="flex-icone-tec">
+            <img id="icone-tec-unidade" src="img-home/3dcube-1.png" alt="cube1" />
+            <p>3D Modelings</p>
+            <img id="seta" src="img-home/arrow.png" alt="" />
+          </div>
+          </div>
+        </div>
         </div>
 
-        <div class="texto-icones">
-          <p>Mobile Game Development</p>
-          <p>PC Game Development</p>
-          <p>PS4 Game Development</p>
-          <p>AR/VR Solutions</p>
-          <p>AR/ VR design</p>
-          <p>3D Modelings</p>
-        </div>
-
-        <div class="seta-icones">
-          <img src="img-home/arrow.png" alt="" />
-          <img src="img-home/arrow.png" alt="" />
-          <img src="img-home/arrow.png" alt="" />
-          <img src="img-home/arrow.png" alt="" />
-          <img src="img-home/arrow.png" alt="" />
-          <img src="img-home/arrow.png" alt="" />
-        </div>
       </div>
 
-      <div class="fourth-part">
+      <div class="fourth-part" id="secao-projects">
         <h6>Our Recent Projects</h6>
-        <p>
+        <p class="text-projects">
           Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry.
+          <br />industry.
         </p>
 
-        <div id="grid">
-          <img src="img-home/grid-1.png" alt="grid-1" />
-          <img src="img-home/grid-2.png" alt="grid-2" />
-          <img src="img-home/grid-3.png" alt="grid-3" />
-          <img src="img-home/grid-4.png" alt="grid-4" />
-          <img src="img-home/grid-5.png" alt="grid-5" />
-          <img src="img-home/grid-6.png" alt="grid-6" />
+        <div class="grid">
+          <div class="grid-jogos-wrapper">
+            <img src="img-home/grid-1.png" alt="grid-1" />
+          </div>
+          <div class="grid-jogos-wrapper">
+            <img src="img-home/grid-2.png" alt="grid-2" />
+          </div>
+          <div class="grid-jogos-wrapper">
+            <img src="img-home/grid-3.png" alt="grid-3" />
+          </div>
+          <div class="grid-jogos-wrapper">
+            <img src="img-home/grid-5.png" alt="grid-5" />
+          </div>
+          <div class="grid-jogos-wrapper">
+            <img src="img-home/grid-4.png" alt="grid-4" />
+          </div>
+          <div class="grid-jogos-wrapper">
+            <img src="img-home/grid-6.png" alt="grid-6" />
+          </div>
+          <button id="see-all-2">SEE ALL</button>
         </div>
       </div>
 
-      <div class="fifth-part">
-        <p>Lorem Ipsum</p>
-        <p>
+      <div class="fifth-part" id="secao-newsletter">
+        <p id="p1-fifth-part">Lorem Ipsum</p>
+        <p id="p2-fifth-part">
           Lorem Ipsum is simply dummy text of the printing and typesetting
+          <br />
           industry.
         </p>
 
-        <div id="box-fifthpart">
-          <p>Stay in the loop</p>
-          <p>
-            Subscribe to receive the latest news and updates about TDA. We
-            promise not to spam you!
-          </p>
-          <input id="emailAddress" type="email" />
-          <button id="validate-email">Continue</button>
+        <div class="box-fifthpart">
+          <div class="info-box-fifthpart">
+            <div class="text-email-fifth-part">
+              <p id="stay-in-the-loop">Stay in the loop</p>
+              <p id="info-about-email">
+                Subscribe to receive the latest news and updates about TDA.<br />
+                We promise not to spam you!
+              </p>
+            </div>
+            <div class="newsletter" id="newsletter">
+              <form id="email-newsletter-home">
+                <div class="email-control">
+                  <input type="email" id="email-home" placeholder="Enter email adress"/>
+                    <button type="submit" id="btn-submit-email">Continue</button>
+                    <br>
+                    
+                </div>
+                <span id="message-error"></span>
+                <span id="message-sucess"></span>
+              </form>
+            </div>
+              
+          </div>
         </div>
       </div>
+    </main>
 
-      <footer>
-        <div class="first-column">
-          <a href="#" class="logo">LOGO</a>
-          <p>
+    <footer>
+      <div class="container-footer">
+        <div class="column-logo">
+          <p class="logo" id="logo-footer">LOGO</p>
+          <p id="info-logo-footer">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.
           </p>
-          <p>@Logo</p>
+          <p id="logo-arroba">@Logo</p>
         </div>
 
-        <div class="second-column">
-          <p>About Us</p>
-          <p>Zeux</p>
-          <p>Portfolio</p>
-          <p>Careers</p>
-          <p>Contact us</p>
+        <div class="column-aboutus">
+          <p id="about-us-footer">About Us</p>
+          <p id="zeux-footer">Zeux</p>
+          <p id="porfolio-footer">Portfolio</p>
+          <p id="carrers-footer">Careers</p>
+          <p id="contact-us-footer">Contact us</p>
         </div>
 
-        <div class="third-column">
-          <p>Contact Us</p>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
+        <div class="column-contactus">
+          <p id="title-contact-footer">Contact Us</p>
+          <p id="text-contact-footer">
+            Lorem Ipsum is simply dummy text<br />
+            of the printing and typesetting<br />
             industry.
           </p>
-          <p>+908 89097 890</p>
+          <p id="fone-contact-footer">+908 89097 890</p>
         </div>
 
         <div class="icones-footer">
-          <img src="img-home/facebook 1.png" alt="facebook" />
-          <img src="instagram" alt="instagram" />
-          <img src="img-home/twitter 1.png" alt="twitter" />
-          <img src="img-home/linkedin 1.png" alt="linkedin" />
+          <a href="https://www.facebook.com" target="_blank"><img src="img-home/face-branco.png" alt="facebook" /></a>
+          <a href="https://www.instagram.com" target="_blank"><img src="img-home/insta-branco.png" alt="instagram" /></a>
+          <a href="https://twitter.com/" target="_blank"><img src="img-home/twitter-branco.png" alt="twitter" /></a>
+          <a href="https://www.linkedin.com/in/brendagaudencio/" target="_blank"><img src="img-home/linkedin-branco.png" alt="linkedin" /></a>
         </div>
+      </div>
+      <div class="rodape">
+        <p id="rodape-text">Copyright ® 2022 prodesigner All rights Rcerved</p>
+      </div>
+    </footer>
 
-        <div class="rodape">
-          <p>Copyright ® 2022 prodesigner All rights Rcerved</p>
-        </div>
-      </footer>
-    </main>
-    <script src="script.js"></script>
+    <script src="home.js"></script>
   </body>
 </html>

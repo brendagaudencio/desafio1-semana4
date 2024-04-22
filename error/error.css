@@ -1,0 +1,48 @@
+@import 'style-global.css';
+
+p {
+    color: #FFFFFF;
+}
+
+main {
+    max-width: 1440px;
+    margin-inline: auto;
+}
+
+body {
+    background-image: linear-gradient(#332E62, #39289F);
+}
+
+.erro-404 {
+    margin-inline: auto;
+    text-align: center;
+    max-width: 1046px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+h1 {
+    color: #08042F;
+    font-size: 300px;
+    margin: 0;
+}
+
+#sorry-message {
+    font-size: 30px;
+    margin: 0;
+}
+
+#back-home {
+    font-size: 25px;
+    margin-top: 50px;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+

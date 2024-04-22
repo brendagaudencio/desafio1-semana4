@@ -1,0 +1,233 @@
+@import 'style-global.css';
+
+main {
+    margin-inline: auto;
+    max-width: 1440px;
+}
+
+body {
+    background-image: linear-gradient(170deg, #2211E7,#383837);
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 33px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cabecalho-mapa {
+    margin-inline: auto;
+    max-width: 1188px;
+}
+
+#menu-home-contactus {
+    margin-top: 100px;
+    font-size: 16px;
+}
+
+.cabecalho-mapa p {
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    max-width: 1440px;
+}
+
+.mapa img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+}
+
+.info-cabecalho-mapa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1188px;
+    max-height: 133px;
+
+    margin-top: 62px;
+    
+}
+
+.follow-us {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.follow-us p {
+    font-size: 20px;
+    text-align: left;
+    max-width: 1188px;
+    margin-left: 17px;
+}
+
+.follow-us img {
+    width: 60px;
+    height: 60px;
+}
+
+.icones-follow-us {
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+    padding-right: 80px;
+}    
+
+.telefone {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding-right: 80px;
+}
+
+.telefone p {
+    font-size: 20px;
+}
+
+.telefone img {
+    height: 30px;
+    width: 30px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.location p {
+    font-size: 20px;
+    text-align: left;
+}
+
+.location img {
+    width: 29px;
+    height: 29px;
+    
+}
+
+.formulario {
+    max-width: 1440px;
+    height: 858px;
+    background-color: #1C140F;
+    margin-top: 147px;
+    border: none;
+    position: relative;
+}
+
+#linha-1 {
+    position: absolute;
+    bottom: 0;
+    
+}
+
+#linha-2 {
+    position: absolute;
+    right: 0;
+}
+
+#say-hello {
+    color: #FFFFFF;
+    font-size: 30px;
+    text-align: center;
+    margin-inline: auto;
+    margin: 0;
+    padding-top: 84px;
+    max-width: 671px;
+}
+
+#info-p-form {
+    color: #FFFFFF;
+    font-size: 13px;
+    max-width: 671px;
+    text-align: center;
+    margin-inline: auto;
+    margin-bottom: 35px;
+}    
+
+.colunas-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-full input {
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.07);
+    border: solid 1px rgba(255, 255, 255, 0.40);
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.form-full textarea {
+    color: #FFFFFF;
+}
+
+.form-full {
+    color: #4F4F4F;
+    font-size: 14px;
+    max-width: 671px;
+    margin-inline: auto;
+    margin-top: 79px;
+}
+
+#message-form {
+    width: 670px;
+    height: 232px;
+
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.07);
+    border: solid 1px rgba(255, 255, 255, 0.40);
+}
+
+#email-form {
+    width: 671px;
+    height: 56px;
+    padding: 0px;
+}
+
+#first-name {
+    width: 322px;
+    height: 56px;
+    padding: 0px;
+}
+
+#last-name {
+    width: 322px;
+    height: 56px;
+    padding: 0px;
+}
+
+.form-full button {
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #DC7000;
+    border-radius: 15px;
+    padding: 15px 40px 15px 40px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#form-message-sucess {
+    color: #659056;
+    font-size: 16px;
+}
+
+#form-message-error {
+    color: #B4003C;
+    font-size: 16px;
+}
+
+.btn-form {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    max-width: 671px;
+}
+
+
+
