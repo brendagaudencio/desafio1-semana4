@@ -40,7 +40,5 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 ## Autora: 
 Brenda Gaudêncio 👋 [Entre em contato!](https://www.linkedin.com/in/brendagaudencio/)
 
-## 📝 Licença
-Este projeto esta sobe a licença [MIT](./LICENSE).
 
 
