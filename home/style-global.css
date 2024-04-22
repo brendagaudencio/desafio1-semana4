@@ -113,11 +113,20 @@ nav .links {
 }
 
 .email-control input {
-    padding: 17px 100px 17px 100px;
+    width: 350px;
+    max-width: 386px;
+    height: 48px;
+    padding: 0 16px;
     background-color: #FFFFFF;
     border-radius: 15px;
     border: none;
     
+}
+
+input:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
 }
 
 .email-control button {
@@ -129,8 +138,8 @@ nav .links {
     border: none;
     border-radius: 10px;
     position: absolute;
-    right: 3%;
-    top: 15%;
+    right: 2%;
+    top: 10%;
 }
 
 #message-error {
