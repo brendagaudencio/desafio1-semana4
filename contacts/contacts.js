@@ -17,6 +17,7 @@ function checkInputEmail() {
     document.getElementById("message-sucess").innerHTML =
       "Email submitted successfully!";
     document.getElementById("message-error").innerHTML = "";
+    emailContacts.value = "";
   }
 }
 
@@ -35,7 +36,6 @@ formNewsletter.addEventListener("submit", (e) => {
     "emailKeyContacts",
     emailContacts.value
   );
-  emailContacts.value = "";
 });
 
 const formGeral = document.getElementById("form-geral");
@@ -90,17 +90,6 @@ function checkFormInput(messagesArrays) {
       message: "Message must have 2 to 100 letters",
     });
 
-  // if(firstNomeValue === '' || lastNameValue === '' || emailFormValue === '' || messageFormValue === '') {
-  //     document.getElementById('form-message-error').innerHTML = 'Please fill in the blanks spaces.'
-  //     document.getElementById('form-message-sucess').innerHTML = ''
-  // }
-  // else if(!isValidEmail(emailFormValue)) {
-  //     document.getElementById('form-message-error').innerHTML = 'This email is not valid.'
-  //     document.getElementById('form-message-sucess').innerHTML = ''
-  // } else {
-  //     document.getElementById('form-message-sucess').innerHTML = 'The contact form was submitted successfully!'
-  //     document.getElementById('form-message-error').innerHTML = ''
-  // }
 }
 
 function setMessages(messagesArrays) {
@@ -132,10 +121,14 @@ formGeral.addEventListener("submit", (e) => {
 
     const formInJson = JSON.stringify(objForm);
     localStorage.setItem("formGeral", formInJson);
-  }
 
-  // firstNome.value = ''
-  // lastName.value = ''
-  // emailForm.value = ''
-  // messageForm.value = ''
+    document.getElementById("form-message-sucess").innerHTML =
+      "The contact form was submitted successfully!";
+    document.getElementById("form-message-error").innerHTML = "";
+
+    firstNome.value = "";
+    lastName.value = "";
+    emailForm.value = "";
+    messageForm.value = "";
+  }
 });
