@@ -80,6 +80,11 @@ body {
   cursor: pointer;
 }
 
+#more-deatils:hover {
+  background-color: #f0a549; /* Cor de fundo ao passar o cursor */
+  transform: scale(1.05);
+}
+
 .cabecalho-2 {
   display: flex;
   align-items: center;
@@ -107,6 +112,11 @@ h3 {
   cursor: pointer;
 }
 
+#see-all-1:hover {
+  background-color: #ffffff10; 
+  transform: scale(1.05);
+}
+
 .trending-games {
   display: flex;
   justify-content: space-between;
@@ -114,6 +124,10 @@ h3 {
   margin-inline: auto;
   margin-top: 57px;
   /*border: solid 10px;*/
+}
+
+.trending-games img:hover {
+  transform: scale(1.05);
 }
 
 .all-followers {
@@ -191,6 +205,10 @@ h5 {
   position: relative;
 }
 
+.imagem-filme:hover {
+  transform: scale(1.01);
+}
+
 #bolinhas {
   position: absolute;
   right: 20%;
@@ -247,6 +265,10 @@ h5 {
   height: 21px;
 }
 
+#seta:hover {
+  transform: scale(1.07);
+}
+
 #icone-tec-unidade {
   width: 65px;
   height: 65px;
@@ -292,6 +314,10 @@ h6 {
   margin-inline: auto;
 }
 
+.grid img:hover {
+  transform: scale(1.05);
+}
+
 #see-all-2 {
   color: white;
   font-family: "Rubik", sans-serif;
@@ -304,6 +330,11 @@ h6 {
   margin-inline: auto;
   margin-top: 72px;
   cursor: pointer;
+}
+
+#see-all-2:hover {
+  background-color: #ffffff10; 
+  transform: scale(1.05);
 }
 
 .button-seeAll-2 {

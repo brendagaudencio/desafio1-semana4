@@ -40,26 +40,14 @@ header {
   margin: 0 15px;
 }
 
-.nav-link {
-  text-decoration: none;
-  font-size: 1.15rem;
-  color: #fff;
-  font-weight: 400;
-}
-
-nav .links {
-  font-size: 16px;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 50px;
-  margin-right: 0px;
-}
 
 .logo {
   font-size: 29px;
   font-weight: bold;
+}
+
+.nav-item a:hover {
+  color: #fa9021; 
 }
 
 #contact-us {
@@ -75,6 +63,11 @@ nav .links {
 
   display: flex;
   align-items: center;
+}
+
+#contact-us:hover {
+  background-color: #f0a549; /* Cor de fundo ao passar o cursor */
+  transform: scale(1.05); /* Leve aumento de tamanho ao passar o cursor */
 }
 
 .mobile-menu-icon {
