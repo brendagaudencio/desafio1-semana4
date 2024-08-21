@@ -8,24 +8,47 @@
   </head>
   <body>
     <header>
-      <nav>
-        <a href="/home/index.html" class="logo">LOGO</a>
-        <div class="links">
-          <a href="/home/index.html">Home</a>
-          <a href="/error/error.html">About Us</a>
-          <a href="/error/error.html">Portfolio</a>
-          <a href="/error/error.html">News</a>
-          <a href="contacts.html"
-            ><button id="contact-us">Contact Us</button></a
-          >
+      <nav class="nav-bar">
+        <div>
+          <a href="../home/index.html" class="logo">LOGO</a>
+        </div>
+        <div class="nav-list">
+          <ul>
+            <li class="nav-item"><a href="../home/index.html">Home</a></li>
+            <li class="nav-item"><a href="../error/error.html">About Us</a></li>
+            <li class="nav-item"><a href="../error/error.html">Portfolio</a></li>
+            <li class="nav-item"><a href="../error/error.html">News</a></li>
+            
+          </ul>
+          <div class="login-button">
+            <button id="contact-us"><a href="../contacts/contacts.html">Contact Us</a></button>
+          </div>
+          
+        </div>
+
+        <div class="mobile-menu-icon">
+          <button onclick="menuShow()"> <img class="icon" src="../assets/menu_white_36dp.svg" alt=""></button>
         </div>
       </nav>
+
+      <div class="mobile-menu">
+        <ul>
+          <li class="nav-item"><a href="../home/index.html">Home</a></li>
+            <li class="nav-item"><a href="../error/error.html">About Us</a></li>
+            <li class="nav-item"><a href="../error/error.html">Portfolio</a></li>
+            <li class="nav-item"><a href="../error/error.html">News</a></li>
+        </ul>
+
+        <div class="login-button">
+          <button id="contact-us">Contact Us</button>
+        </div>
+      </div>
     </header>
 
     <main>
       <div class="cabecalho-mapa">
         <div class="texto-cabecalho-mapa">
-          <p id="menu-home-contactus">Home > Contact us</p>
+          <p id="menu-home-contactus"> <a href="../home/index.html">Home</a> > <a href="../contacts/contacts.html">Contact us</a></p>
           <h1>Lorem Ipsum is simply dummy text of the printing and.</h1>
           <p id="p-cabecalho-mapa">
             Lorem Ipsum is simply dummy text of the printing and typesetting
